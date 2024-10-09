@@ -16,7 +16,7 @@ public class SpringbootServicioEurekaServerApplication implements CommandLineRun
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println("**************************************");
-		System.out.println("EUREKA V-241008 19:55");
+		System.out.println("EUREKA V-241008 20:06");
 	}
 
 }
