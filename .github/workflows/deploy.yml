@@ -57,7 +57,7 @@ jobs:
             git pull &&
             cd servicio-eureka-server &&
             export PATH=/opt/maven/bin:$PATH && mvn clean install -DskipTests &&
-            mv ./target/servicio-eureka-server-0.0.1-SNAPSHOT.jar ../../servicio-eureka-server.jar &&
+            mv ./target/springboot-servicio-eureka-server-0.0.1-SNAPSHOT.jar ../../servicio-eureka-server.jar &&
             cd ../../../ &&
             CONTAINER_NAME="servicio-eureka-server" &&
             IMAGE_NAME=$(docker inspect --format='{{.Config.Image}}' "$CONTAINER_NAME") &&
